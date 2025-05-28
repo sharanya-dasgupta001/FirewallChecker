@@ -1,0 +1,316 @@
+Name	Group	Profile	Enabled	Action	Override	Program	Local Address	Remote Address	Protocol	Local Port	Remote Port	Authorized Users	Authorized Computers	Authorized Local Principals	Local User Owner	PolicyAppId	Application Package	
+AnyDesk		Public	Yes	Allow	No	C:\Program Files (x86)\AnyDesk\AnyDesk.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+AnyDesk		Public	Yes	Allow	No	C:\Program Files (x86)\AnyDesk\AnyDesk.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+AnyDesk		Private	Yes	Allow	No	C:\Program Files (x86)\AnyDesk\AnyDesk.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+AnyDesk		Public	Yes	Allow	No	D:\downloads\anydesk.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+AnyDesk		Private	Yes	Allow	No	C:\Program Files (x86)\AnyDesk\AnyDesk.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+AnyDesk		Public	Yes	Allow	No	D:\downloads\anydesk.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+AnyDesk		Domain	Yes	Allow	No	C:\Program Files (x86)\AnyDesk\AnyDesk.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+AnyDesk		Domain	Yes	Allow	No	C:\Program Files (x86)\AnyDesk\AnyDesk.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+brave.exe		Public	Yes	Block	No	C:\users\shara\appdata\local\bravesoftware\brave-browser\application\brave.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+brave.exe		Public	Yes	Block	No	C:\users\shara\appdata\local\bravesoftware\brave-browser\application\brave.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+ChatGPT		Public	Yes	Allow	No	C:\program files\windowsapps\openai.chatgpt-desktop_1.2025.41.0_x64__2p2nqsd0c76g0\app\chatgpt.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+ChatGPT		Public	Yes	Allow	No	C:\program files\windowsapps\openai.chatgpt-desktop_1.2025.41.0_x64__2p2nqsd0c76g0\app\chatgpt.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Logi Options+ Agent		All	Yes	Allow	No	C:\Program Files\LogiOptionsPlus\logioptionsplus_agent.exe	Any	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+Logi Options+ Agent		All	Yes	Allow	No	C:\Program Files\LogiOptionsPlus\logivoice\logioptionsplus_logivoice	Any	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+Logi Plugin Service		All	Yes	Allow	No	C:\Program Files\Logi\LogiPluginService\LogiPluginService.exe	Any	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+Port 3306		All	Yes	Allow	No	Any	Any	Any	TCP	3306	Any	Any	Any	Any	Any	None	Any	
+Port 33060		All	Yes	Allow	No	Any	Any	Any	TCP	33060	Any	Any	Any	Any	Any	None	Any	
+Visual Studio Code		Public	Yes	Allow	No	C:\users\shara\appdata\local\programs\microsoft vs code\code.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Visual Studio Code		Public	Yes	Allow	No	C:\users\shara\appdata\local\programs\microsoft vs code\code.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+VLC media player		Public	Yes	Allow	No	C:\program files (x86)\videolan\vlc\vlc.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+VLC media player		Public	Yes	Allow	No	C:\program files (x86)\videolan\vlc\vlc.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+@{HoloShell_10.0.22621.1_neutral__cw5n1h2txyewy?ms-resource://HoloShell/resources/DisplayName}	@{HoloShell_10.0.22621.1_neutral__cw5n1h2txyewy?ms-resource://HoloShell/resources/DisplayName}	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	HoloShell_cw5n1h2txyewy	
+@{HoloShell_10.0.22621.1_neutral__cw5n1h2txyewy?ms-resource://HoloShell/resources/DisplayName}	@{HoloShell_10.0.22621.1_neutral__cw5n1h2txyewy?ms-resource://HoloShell/resources/DisplayName}	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	HoloShell_cw5n1h2txyewy	
+@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}	@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy	
+@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}	@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy	
+@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}	@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy	
+@{Microsoft.DesktopAppInstaller_1.17.10691.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}	@{Microsoft.DesktopAppInstaller_1.17.10691.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.DesktopAppInstaller_8wekyb3d8bbwe	
+@{Microsoft.PPIProjection_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.PPIProjection/resources/ProductNameWindowsStore}	@{Microsoft.PPIProjection_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.PPIProjection/resources/ProductNameWindowsStore}	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.PPIProjection_cw5n1h2txyewy	
+@{Microsoft.SecHealthUI_1000.22621.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/PackageDisplayName}	@{Microsoft.SecHealthUI_1000.22621.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/PackageDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.SecHealthUI_8wekyb3d8bbwe	
+@{Microsoft.SecHealthUI_1000.22621.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/PackageDisplayName}	@{Microsoft.SecHealthUI_1000.22621.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/PackageDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.SecHealthUI_8wekyb3d8bbwe	
+@{Microsoft.Todos_0.54.42772.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}	@{Microsoft.Todos_0.54.42772.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	S-1-15-2-2537927067-2140208811-1083047336-3825492100-1188134376-3459723148-3131426163	
+@{Microsoft.Win32WebViewHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}	@{Microsoft.Win32WebViewHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.Win32WebViewHost_cw5n1h2txyewy	
+@{Microsoft.Win32WebViewHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}	@{Microsoft.Win32WebViewHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.Win32WebViewHost_cw5n1h2txyewy	
+@{Microsoft.Windows.CloudExperienceHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}	@{Microsoft.Windows.CloudExperienceHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy	
+@{Microsoft.Windows.CloudExperienceHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}	@{Microsoft.Windows.CloudExperienceHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy	
+@{Microsoft.Windows.CloudExperienceHost_10.0.22621.2506_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}	@{Microsoft.Windows.CloudExperienceHost_10.0.22621.2506_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy	
+@{Microsoft.Windows.Photos_21.21030.25003.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/AppStoreName}	@{Microsoft.Windows.Photos_21.21030.25003.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/AppStoreName}	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.Windows.Photos_8wekyb3d8bbwe	
+@{Microsoft.Windows.StartMenuExperienceHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}	@{Microsoft.Windows.StartMenuExperienceHost_10.0.22621.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy	
+@{Microsoft.Windows.StartMenuExperienceHost_10.0.22621.4249_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}	@{Microsoft.Windows.StartMenuExperienceHost_10.0.22621.4249_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy	
+@{microsoft.windowscommunicationsapps_16005.14326.20544.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_OutlookDesktop_DisplayName}	@{microsoft.windowscommunicationsapps_16005.14326.20544.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_OutlookDesktop_DisplayName}	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	S-1-15-2-2551677095-2355568638-4209445997-2436930744-3692183382-387691378-1866284433	
+@{Microsoft.WindowsFeedbackHub_1.2411.17101.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}	@{Microsoft.WindowsFeedbackHub_1.2411.17101.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe	
+@{Microsoft.WindowsMixedRealityRuntimeApp_113.2403.5001.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsMixedRealityRuntimeApp/Resources/displayName}	@{Microsoft.WindowsMixedRealityRuntimeApp_113.2403.5001.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsMixedRealityRuntimeApp/Resources/displayName}	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	S-1-15-2-3703971366-631676121-2312044425-318798473-896468315-849655335-712183749	
+@{Microsoft.XboxGamingOverlay_2.622.3232.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar}	@{Microsoft.XboxGamingOverlay_2.622.3232.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar}	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.XboxGamingOverlay_8wekyb3d8bbwe	
+@{Microsoft.ZuneMusic_11.2202.46.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}	@{Microsoft.ZuneMusic_11.2202.46.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.ZuneMusic_8wekyb3d8bbwe	
+@{Microsoft.ZuneVideo_10.22020.10021.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneVideo/resources/IDS_MANIFEST_VIDEO_APP_NAME}	@{Microsoft.ZuneVideo_10.22020.10021.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneVideo/resources/IDS_MANIFEST_VIDEO_APP_NAME}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	S-1-15-2-2967553933-3217682302-2494645345-2077017737-3805576244-585965800-1797614741	
+@{MicrosoftWindows.Client.CBS_1000.22640.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}	@{MicrosoftWindows.Client.CBS_1000.22640.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	MicrosoftWindows.Client.CBS_cw5n1h2txyewy	
+@{MicrosoftWindows.Client.CBS_1000.22640.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}	@{MicrosoftWindows.Client.CBS_1000.22640.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	MicrosoftWindows.Client.CBS_cw5n1h2txyewy	
+@{MicrosoftWindows.Client.CBS_1000.22700.1041.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}	@{MicrosoftWindows.Client.CBS_1000.22700.1041.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	MicrosoftWindows.Client.CBS_cw5n1h2txyewy	
+@{MicrosoftWindows.Client.Core_1000.22634.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/resources/ProductPkgDisplayName}	@{MicrosoftWindows.Client.Core_1000.22634.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/resources/ProductPkgDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	MicrosoftWindows.Client.Core_cw5n1h2txyewy	
+@{MicrosoftWindows.Client.Core_1000.22700.1011.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/resources/ProductPkgDisplayName}	@{MicrosoftWindows.Client.Core_1000.22700.1011.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/resources/ProductPkgDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	MicrosoftWindows.Client.Core_cw5n1h2txyewy	
+@{MicrosoftWindows.Client.LKG_1000.22621.3880.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.LKG/resources/ProductPkgDisplayName}	@{MicrosoftWindows.Client.LKG_1000.22621.3880.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.LKG/resources/ProductPkgDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	NT AUTHORITY\SYSTEM	None	MicrosoftWindows.Client.LKG_cw5n1h2txyewy	
+@{MicrosoftWindows.LKG.DesktopSpotlight_1000.26100.3775.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.DesktopSpotlight/Resources/ProductPkgDisplayName}	@{MicrosoftWindows.LKG.DesktopSpotlight_1000.26100.3775.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.DesktopSpotlight/Resources/ProductPkgDisplayName}	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	NT AUTHORITY\SYSTEM	None	MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy	
+Microsoft Teams	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\MSTeams_25094.310.3616.953_x64__8wekyb3d8bbwe\ms-teams.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Microsoft Teams	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\MSTeams_25094.310.3616.953_x64__8wekyb3d8bbwe\ms-teams.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+Microsoft Teams (personal)	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\MicrosoftTeams_24244.507.3118.4732_x64__8wekyb3d8bbwe\msteams.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+Microsoft Teams (personal)	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\MicrosoftTeams_24244.507.3118.4732_x64__8wekyb3d8bbwe\msteams.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Spotify Music	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.222.982.0_x64__zpdnekdrzrea0\Spotify.exe	Any	Any	TCP	4371-4379	Any	Any	Any	Any	Any	None	Any	
+Spotify Music	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.222.982.0_x64__zpdnekdrzrea0\Spotify.exe	Any	Any	UDP	8088	Any	Any	Any	Any	Any	None	Any	
+Spotify Music	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.222.982.0_x64__zpdnekdrzrea0\Spotify.exe	Any	Any	TCP	57621-57631	Any	Any	Any	Any	Any	None	Any	
+Spotify Music	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.222.982.0_x64__zpdnekdrzrea0\Spotify.exe	Any	Any	UDP	57621	Any	Any	Any	Any	Any	None	Any	
+Spotify Music	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.222.982.0_x64__zpdnekdrzrea0\Spotify.exe	Any	Any	TCP	8443	Any	Any	Any	Any	Any	None	Any	
+Spotify Music	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.222.982.0_x64__zpdnekdrzrea0\Spotify.exe	Any	Any	TCP	8080-8082	Any	Any	Any	Any	Any	None	Any	
+Spotify Music	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.222.982.0_x64__zpdnekdrzrea0\Spotify.exe	Any	Any	TCP	8088	Any	Any	Any	Any	Any	None	Any	
+Spotify Music	{78E1CD88-49E3-476E-B926-580E596AD309}	All	Yes	Allow	No	C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.222.982.0_x64__zpdnekdrzrea0\Spotify.exe	Any	Any	TCP	4381-4390	Any	Any	Any	Any	Any	None	Any	
+AllJoyn Router (TCP-In)	AllJoyn Router	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	9955	Any	Any	Any	Any	Any	None	Any	
+AllJoyn Router (UDP-In)	AllJoyn Router	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+App Installer	App Installer	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.DesktopAppInstaller_8wekyb3d8bbwe	
+Cast to Device functionality (qWave-TCP-In)	Cast to Device functionality	Private, Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	PlayTo Renderers	TCP	2177	Any	Any	Any	Any	Any	None	Any	
+Cast to Device functionality (qWave-UDP-In)	Cast to Device functionality	Private, Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	PlayTo Renderers	UDP	2177	Any	Any	Any	Any	Any	None	Any	
+Cast to Device SSDP Discovery (UDP-In)	Cast to Device functionality	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	PlayTo Discovery	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (HTTP-Streaming-In)	Cast to Device functionality	Private	Yes	Allow	No	System	Any	Local subnet	TCP	10246	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (HTTP-Streaming-In)	Cast to Device functionality	Domain	Yes	Allow	No	System	Any	Any	TCP	10246	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (HTTP-Streaming-In)	Cast to Device functionality	Public	Yes	Allow	No	System	Any	PlayTo Renderers	TCP	10246	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (RTCP-Streaming-In)	Cast to Device functionality	Domain	Yes	Allow	No	%SystemRoot%\system32\mdeserver.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (RTCP-Streaming-In)	Cast to Device functionality	Private	Yes	Allow	No	%SystemRoot%\system32\mdeserver.exe	Any	Local subnet	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (RTCP-Streaming-In)	Cast to Device functionality	Public	Yes	Allow	No	%SystemRoot%\system32\mdeserver.exe	Any	PlayTo Renderers	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (RTSP-Streaming-In)	Cast to Device functionality	Public	Yes	Allow	No	%SystemRoot%\system32\mdeserver.exe	Any	PlayTo Renderers	TCP	23554, 23555, 23556	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (RTSP-Streaming-In)	Cast to Device functionality	Private	Yes	Allow	No	%SystemRoot%\system32\mdeserver.exe	Any	Local subnet	TCP	23554, 23555, 23556	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (RTSP-Streaming-In)	Cast to Device functionality	Domain	Yes	Allow	No	%SystemRoot%\system32\mdeserver.exe	Any	Any	TCP	23554, 23555, 23556	Any	Any	Any	Any	Any	None	Any	
+Cast to Device UPnP Events (TCP-In)	Cast to Device functionality	Public	Yes	Allow	No	System	Any	PlayTo Renderers	TCP	2869	Any	Any	Any	Any	Any	None	Any	
+ChatGPT	ChatGPT	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	OpenAI.ChatGPT-Desktop_2p2nqsd0c76g0	
+Connected Devices Platform - Wi-Fi Direct Transport (TCP-In)	Connected Devices Platform	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Connected Devices Platform (TCP-In)	Connected Devices Platform	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Connected Devices Platform (UDP-In)	Connected Devices Platform	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Destination Unreachable (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Destination Unreachable Fragmentation Needed (ICMPv4-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	ICMPv4	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Dynamic Host Configuration Protocol (DHCP-In)	Core Networking	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	68	67	Any	Any	Any	Any	None	Any	
+Core Networking - Dynamic Host Configuration Protocol for IPv6(DHCPV6-In)	Core Networking	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	546	547	Any	Any	Any	Any	None	Any	
+Core Networking - Internet Group Management Protocol (IGMP-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	IGMP	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - IPHTTPS (TCP-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	TCP	IPHTTPS	Any	Any	Any	Any	Any	None	Any	
+Core Networking - IPv6 (IPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	IPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Multicast Listener Done (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Multicast Listener Query (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Multicast Listener Report (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Multicast Listener Report v2 (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Neighbor Discovery Advertisement (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Neighbor Discovery Solicitation (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Packet Too Big (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Parameter Problem (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Router Advertisement (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	fe80::/64	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Router Solicitation (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Teredo (UDP-In)	Core Networking	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Edge Traversal	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Time Exceeded (ICMPv6-In)	Core Networking	All	Yes	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking Diagnostics - ICMP Echo Request (ICMPv4-In)	Core Networking Diagnostics	Domain	No	Allow	No	System	Any	Any	ICMPv4	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking Diagnostics - ICMP Echo Request (ICMPv4-In)	Core Networking Diagnostics	Private, Public	No	Allow	No	System	Any	Local subnet	ICMPv4	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking Diagnostics - ICMP Echo Request (ICMPv6-In)	Core Networking Diagnostics	Domain	No	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Core Networking Diagnostics - ICMP Echo Request (ICMPv6-In)	Core Networking Diagnostics	Private, Public	No	Allow	No	System	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Delivery Optimization (TCP-In)	Delivery Optimization	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	7680	Any	Any	Any	Any	Any	None	Any	
+Delivery Optimization (UDP-In)	Delivery Optimization	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	7680	Any	Any	Any	Any	Any	None	Any	
+Desktop App Web Viewer	Desktop App Web Viewer	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	NT AUTHORITY\SYSTEM	None	Microsoft.Win32WebViewHost_cw5n1h2txyewy	
+DIAL protocol server (HTTP-In)	DIAL protocol server	Domain	Yes	Allow	No	System	Any	Any	TCP	10247	Any	Any	Any	Any	Any	None	Any	
+DIAL protocol server (HTTP-In)	DIAL protocol server	Private	Yes	Allow	No	System	Any	Local subnet	TCP	10247	Any	Any	Any	Any	Any	None	Any	
+Distributed Transaction Coordinator (RPC)	Distributed Transaction Coordinator	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Distributed Transaction Coordinator (RPC)	Distributed Transaction Coordinator	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Distributed Transaction Coordinator (RPC-EPMAP)	Distributed Transaction Coordinator	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Distributed Transaction Coordinator (RPC-EPMAP)	Distributed Transaction Coordinator	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Distributed Transaction Coordinator (TCP-In)	Distributed Transaction Coordinator	Private, Public	No	Allow	No	%SystemRoot%\system32\msdtc.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Distributed Transaction Coordinator (TCP-In)	Distributed Transaction Coordinator	Domain	No	Allow	No	%SystemRoot%\system32\msdtc.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Dropbox promotion	Dropbox promotion	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	S-1-15-2-957046722-3704396400-4010937963-411832198-1131521071-1207666172-2334532315	
+File and Printer Sharing (Echo Request - ICMPv4-In)	File and Printer Sharing	Private, Public	Yes	Allow	No	System	Any	Local subnet	ICMPv4	Any	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Echo Request - ICMPv4-In)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	ICMPv4	Any	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Echo Request - ICMPv6-In)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Echo Request - ICMPv6-In)	File and Printer Sharing	Private, Public	Yes	Allow	No	System	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (LLMNR-UDP-In)	File and Printer Sharing	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5355	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (LLMNR-UDP-In)	File and Printer Sharing	Private, Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5355	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Datagram-In)	File and Printer Sharing	Private, Public	Yes	Allow	No	System	Any	Local subnet	UDP	138	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Datagram-In)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	UDP	138	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Name-In)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	UDP	137	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Name-In)	File and Printer Sharing	Private, Public	Yes	Allow	No	System	Any	Local subnet	UDP	137	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Session-In)	File and Printer Sharing	Private, Public	Yes	Allow	No	System	Any	Local subnet	TCP	139	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Session-In)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	TCP	139	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (SMB-In)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	TCP	445	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (SMB-In)	File and Printer Sharing	Private, Public	Yes	Allow	No	System	Any	Local subnet	TCP	445	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Spooler Service - RPC)	File and Printer Sharing	Private, Public	Yes	Allow	No	%SystemRoot%\system32\spoolsv.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Spooler Service - RPC)	File and Printer Sharing	Domain	No	Allow	No	%SystemRoot%\system32\spoolsv.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Spooler Service - RPC-EPMAP)	File and Printer Sharing	Private, Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Spooler Service - RPC-EPMAP)	File and Printer Sharing	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Spooler Service Worker - RPC)	File and Printer Sharing	Public	Yes	Allow	No	%SystemRoot%\system32\spoolsvworker.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Spooler Service Worker - RPC)	File and Printer Sharing	Private	No	Allow	No	%SystemRoot%\system32\spoolsvworker.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Spooler Service Worker - RPC)	File and Printer Sharing	Domain	No	Allow	No	%SystemRoot%\system32\spoolsvworker.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Echo Request - ICMPv4-In)	File and Printer Sharing (Restrictive)	Public	Yes	Allow	No	System	Any	Any	ICMPv4	Any	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Echo Request - ICMPv4-In)	File and Printer Sharing (Restrictive)	Domain, Private	No	Allow	No	System	Any	Any	ICMPv4	Any	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Echo Request - ICMPv6-In)	File and Printer Sharing (Restrictive)	Public	Yes	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Echo Request - ICMPv6-In)	File and Printer Sharing (Restrictive)	Domain, Private	No	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (LLMNR-UDP-In)	File and Printer Sharing (Restrictive)	Domain, Private	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5355	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (LLMNR-UDP-In)	File and Printer Sharing (Restrictive)	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5355	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (SMB-In)	File and Printer Sharing (Restrictive)	Domain, Private	No	Allow	No	System	Any	Any	TCP	445	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (SMB-In)	File and Printer Sharing (Restrictive)	Public	Yes	Allow	No	System	Any	Any	TCP	445	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Spooler Service - RPC)	File and Printer Sharing (Restrictive)	Domain, Private	No	Allow	No	%SystemRoot%\system32\spoolsv.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Spooler Service - RPC)	File and Printer Sharing (Restrictive)	Public	Yes	Allow	No	%SystemRoot%\system32\spoolsv.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Spooler Service - RPC-EPMAP)	File and Printer Sharing (Restrictive)	Domain, Private	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Spooler Service - RPC-EPMAP)	File and Printer Sharing (Restrictive)	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Spooler Service Worker - RPC)	File and Printer Sharing (Restrictive)	Domain, Private	No	Allow	No	%SystemRoot%\system32\spoolsvworker.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Restrictive) (Spooler Service Worker - RPC)	File and Printer Sharing (Restrictive)	Public	Yes	Allow	No	%SystemRoot%\system32\spoolsvworker.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Films & TV	Films & TV	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	S-1-15-2-2967553933-3217682302-2494645345-2077017737-3805576244-585965800-1797614741	
+Game Bar	Game Bar	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.XboxGamingOverlay_8wekyb3d8bbwe	
+Google Chrome (mDNS-In)	Google Chrome	All	Yes	Allow	No	C:\Program Files\Google\Chrome\Application\chrome.exe	Any	Any	UDP	5353	Any	Any	Any	Any	Any	None	Any	
+iSCSI Service (TCP-In)	iSCSI Service	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+iSCSI Service (TCP-In)	iSCSI Service	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Mail and Calendar	Mail and Calendar	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	S-1-15-2-2551677095-2355568638-4209445997-2436930744-3692183382-387691378-1866284433	
+mDNS (UDP-In)	mDNS	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5353	Any	Any	Any	Any	Any	None	Any	
+mDNS (UDP-In)	mDNS	Domain	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	5353	Any	Any	Any	Any	Any	None	Any	
+mDNS (UDP-In)	mDNS	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5353	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - HTTP Streaming (TCP-In)	Media Center Extenders	All	No	Allow	No	System	Any	Local subnet	TCP	10244	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - Media Streaming (TCP-In)	Media Center Extenders	All	No	Allow	No	System	Any	Local subnet	TCP	2869	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - qWave (TCP-In)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	2177	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - qWave (UDP-In)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	2177	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - RTSP (TCP-In)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\ehome\ehshell.exe	Any	Local subnet	TCP	554, 8554, 8555, 8556, 8557, 8558	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - SSDP (UDP-In)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	1900	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - WMDRM-ND/RTP/RTCP (UDP-In)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\ehome\ehshell.exe	Any	Local subnet	UDP	7777, 7778, 7779, 7780, 7781, 5004, 5005, 50004, 50005, 50006, 50007, 50008, 50009, 50010, 50011, 50012, 50013	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - XSP (TCP-In)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	3390	Any	Any	Any	Any	Any	None	Any	
+Microsoft Edge	Microsoft Edge	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	Microsoft.MicrosoftEdge_8wekyb3d8bbwe	
+Microsoft Edge (mDNS-In)	Microsoft Edge	All	Yes	Allow	No	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	Any	Any	UDP	5353	Any	Any	Any	Any	Any	None	Any	
+Microsoft Edge (mDNS-In)	Microsoft Edge WebView2 Runtime	All	Yes	Allow	No	C:\Program Files (x86)\Microsoft\EdgeWebView\Application\136.0.3240.92\msedgewebview2.exe	Any	Any	UDP	5353	Any	Any	Any	Any	Any	None	Any	
+Microsoft Edge (mDNS-In)	Microsoft Edge WebView2 Runtime	All	Yes	Allow	No	C:\Program Files (x86)\Microsoft\EdgeWebView\Application\136.0.3240.76\msedgewebview2.exe	Any	Any	UDP	5353	Any	Any	Any	Any	Any	None	Any	
+Microsoft Media Foundation Network Source IN [TCP 554]	Microsoft Media Foundation Network Source	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	554, 8554-8558	Any	Any	Any	Any	Any	None	Any	
+Microsoft Media Foundation Network Source IN [UDP 5004-5009]	Microsoft Media Foundation Network Source	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5000-5020	Any	Any	Any	Any	Any	None	Any	
+Microsoft Sticky Notes	Microsoft Sticky Notes	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	S-1-15-2-3539788797-2700867667-1432428195-1581642-2885308443-3834444517-2495346167	
+Microsoft Store	Microsoft Store	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.WindowsStore_8wekyb3d8bbwe	
+Microsoft To Do	Microsoft To Do	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	S-1-15-2-2537927067-2140208811-1083047336-3825492100-1188134376-3459723148-3131426163	
+MSN Weather	MSN Weather	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.BingWeather_8wekyb3d8bbwe	
+Netlogon Service (NP-In)	Netlogon Service	All	No	Allow	No	System	Any	Any	TCP	445	Any	Any	Any	Any	Any	None	Any	
+Netlogon Service Authz (RPC)	Netlogon Service	All	No	Allow	No	%SystemRoot%\System32\lsass.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (LLMNR-UDP-In)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5355	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (LLMNR-UDP-In)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5355	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (LLMNR-UDP-In)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	5355	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (NB-Datagram-In)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	UDP	138	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (NB-Datagram-In)	Network Discovery	Domain	No	Allow	No	System	Any	Any	UDP	138	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (NB-Datagram-In)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	UDP	138	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (NB-Name-In)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	UDP	137	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (NB-Name-In)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	UDP	137	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (NB-Name-In)	Network Discovery	Domain	No	Allow	No	System	Any	Any	UDP	137	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (Pub-WSD-In)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (Pub-WSD-In)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (Pub-WSD-In)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (SSDP-In)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	1900	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (SSDP-In)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	1900	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (SSDP-In)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	1900	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (UPnP-In)	Network Discovery	Domain	No	Allow	No	System	Any	Any	TCP	2869	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (UPnP-In)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	TCP	2869	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (UPnP-In)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	TCP	2869	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD Events-In)	Network Discovery	Domain	No	Allow	No	System	Any	Any	TCP	5357	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD Events-In)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	TCP	5357	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD Events-In)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	TCP	5357	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD EventsSecure-In)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	TCP	5358	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD EventsSecure-In)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	TCP	5358	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD EventsSecure-In)	Network Discovery	Domain	No	Allow	No	System	Any	Any	TCP	5358	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD-In)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\dashost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD-In)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\dashost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD-In)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD-In)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD-In)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\dashost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD-In)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Network Discovery for Teredo (SSDP-In)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+Network Discovery for Teredo (UPnP-In)	Network Discovery	Public	Yes	Allow	No	System	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Performance Logs and Alerts (DCOM-In)	Performance Logs and Alerts	Private, Public	No	Allow	No	%systemroot%\system32\svchost.exe	Any	Local subnet	TCP	135	Any	Any	Any	Any	Any	None	Any	
+Performance Logs and Alerts (DCOM-In)	Performance Logs and Alerts	Domain	No	Allow	No	%systemroot%\system32\svchost.exe	Any	Any	TCP	135	Any	Any	Any	Any	Any	None	Any	
+Performance Logs and Alerts (TCP-In)	Performance Logs and Alerts	Domain	No	Allow	No	%systemroot%\system32\plasrv.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Performance Logs and Alerts (TCP-In)	Performance Logs and Alerts	Private, Public	No	Allow	No	%systemroot%\system32\plasrv.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Proximity sharing over TCP (TCP sharing-In)	Proximity Sharing	All	Yes	Allow	No	%SystemRoot%\system32\proximityuxhost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (DCOM-In)	Remote Assistance	Domain	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	135	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (PNRP-In)	Remote Assistance	Public	No	Allow	No	%systemroot%\system32\svchost.exe	Any	Any	UDP	3540	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (PNRP-In)	Remote Assistance	Domain, Private	Yes	Allow	No	%systemroot%\system32\svchost.exe	Any	Any	UDP	3540	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (RA Server TCP-In)	Remote Assistance	Domain	Yes	Allow	No	%SystemRoot%\system32\raserver.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (SSDP TCP-In)	Remote Assistance	Domain, Private	Yes	Allow	No	System	Any	Local subnet	TCP	2869	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (SSDP UDP-In)	Remote Assistance	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	1900	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (TCP-In)	Remote Assistance	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\msra.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (TCP-In)	Remote Assistance	Public	No	Allow	No	%SystemRoot%\system32\msra.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Remote Event Log Management (NP-In)	Remote Event Log Management	Domain	No	Allow	No	System	Any	Any	TCP	445	Any	Any	Any	Any	Any	None	Any	
+Remote Event Log Management (NP-In)	Remote Event Log Management	Private, Public	No	Allow	No	System	Any	Local subnet	TCP	445	Any	Any	Any	Any	Any	None	Any	
+Remote Event Log Management (RPC)	Remote Event Log Management	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Event Log Management (RPC)	Remote Event Log Management	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Event Log Management (RPC-EPMAP)	Remote Event Log Management	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Remote Event Log Management (RPC-EPMAP)	Remote Event Log Management	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Remote Event Monitor (RPC)	Remote Event Monitor	All	No	Allow	No	%SystemRoot%\system32\NetEvtFwdr.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Event Monitor (RPC-EPMAP)	Remote Event Monitor	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Remote Scheduled Tasks Management (RPC)	Remote Scheduled Tasks Management	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Scheduled Tasks Management (RPC)	Remote Scheduled Tasks Management	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Scheduled Tasks Management (RPC-EPMAP)	Remote Scheduled Tasks Management	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Remote Scheduled Tasks Management (RPC-EPMAP)	Remote Scheduled Tasks Management	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Remote Service Management (NP-In)	Remote Service Management	Private, Public	No	Allow	No	System	Any	Local subnet	TCP	445	Any	Any	Any	Any	Any	None	Any	
+Remote Service Management (NP-In)	Remote Service Management	Domain	No	Allow	No	System	Any	Any	TCP	445	Any	Any	Any	Any	Any	None	Any	
+Remote Service Management (RPC)	Remote Service Management	Domain	No	Allow	No	%SystemRoot%\system32\services.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Service Management (RPC)	Remote Service Management	Private, Public	No	Allow	No	%SystemRoot%\system32\services.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Service Management (RPC-EPMAP)	Remote Service Management	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Remote Service Management (RPC-EPMAP)	Remote Service Management	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Inbound Rule for Remote Shutdown (RPC-EP-In)	Remote Shutdown	All	No	Allow	No	%systemroot%\system32\wininit.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Inbound Rule for Remote Shutdown (TCP-In)	Remote Shutdown	All	No	Allow	No	%systemroot%\system32\wininit.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Volume Management - Virtual Disk Service (RPC)	Remote Volume Management	Private, Public	No	Allow	No	%SystemRoot%\system32\vds.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Volume Management - Virtual Disk Service (RPC)	Remote Volume Management	Domain	No	Allow	No	%SystemRoot%\system32\vds.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Volume Management - Virtual Disk Service Loader (RPC)	Remote Volume Management	Private, Public	No	Allow	No	%SystemRoot%\system32\vdsldr.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Volume Management - Virtual Disk Service Loader (RPC)	Remote Volume Management	Domain	No	Allow	No	%SystemRoot%\system32\vdsldr.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Remote Volume Management (RPC-EPMAP)	Remote Volume Management	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Remote Volume Management (RPC-EPMAP)	Remote Volume Management	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Routing and Remote Access (GRE-In)	Routing and Remote Access	All	No	Allow	No	System	Any	Any	GRE	Any	Any	Any	Any	Any	Any	None	Any	
+Routing and Remote Access (L2TP-In)	Routing and Remote Access	All	No	Allow	No	System	Any	Any	UDP	1701	Any	Any	Any	Any	Any	None	Any	
+Routing and Remote Access (PPTP-In)	Routing and Remote Access	All	No	Allow	No	System	Any	Any	TCP	1723	Any	Any	Any	Any	Any	None	Any	
+Secure Socket Tunneling Protocol (SSTP-In)	Secure Socket Tunneling Protocol	All	No	Allow	No	System	Any	Any	TCP	443	Any	Any	Any	Any	Any	None	Any	
+Sign In	Sign In	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Administrator	None	WebAuthBridgeIntranetSso_cw5n1h2txyewy	
+SNMP Trap Service (UDP In)	SNMP Trap	Domain	No	Allow	No	%SystemRoot%\system32\snmptrap.exe	Any	Any	UDP	162	Any	Any	Any	Any	Any	None	Any	
+SNMP Trap Service (UDP In)	SNMP Trap	Private, Public	No	Allow	No	%SystemRoot%\system32\snmptrap.exe	Any	Local subnet	UDP	162	Any	Any	Any	Any	Any	None	Any	
+Start	Start	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	NT AUTHORITY\SYSTEM	None	Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy	
+Store Experience Host	Store Experience Host	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.StorePurchaseApp_8wekyb3d8bbwe	
+TPM Virtual Smart Card Management (DCOM-In)	TPM Virtual Smart Card Management	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	135	Any	Any	Any	Any	Any	None	Any	
+TPM Virtual Smart Card Management (DCOM-In)	TPM Virtual Smart Card Management	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	135	Any	Any	Any	Any	Any	None	Any	
+TPM Virtual Smart Card Management (TCP-In)	TPM Virtual Smart Card Management	Domain	No	Allow	No	%SystemRoot%\system32\RmtTpmVscMgrSvr.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+TPM Virtual Smart Card Management (TCP-In)	TPM Virtual Smart Card Management	Private, Public	No	Allow	No	%SystemRoot%\system32\RmtTpmVscMgrSvr.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Virtual Machine Monitoring (DCOM-In)	Virtual Machine Monitoring	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	135	Any	Any	Any	Any	Any	None	Any	
+Virtual Machine Monitoring (Echo Request - ICMPv4-In)	Virtual Machine Monitoring	All	No	Allow	No	System	Any	Any	ICMPv4	Any	Any	Any	Any	Any	Any	None	Any	
+Virtual Machine Monitoring (Echo Request - ICMPv6-In)	Virtual Machine Monitoring	All	No	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	Any	None	Any	
+Virtual Machine Monitoring (NB-Session-In)	Virtual Machine Monitoring	All	No	Allow	No	System	Any	Any	TCP	139	Any	Any	Any	Any	Any	None	Any	
+Virtual Machine Monitoring (RPC)	Virtual Machine Monitoring	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+WhatsApp	WhatsApp	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	5319275A.WhatsAppDesktop_cv1g1gvanyjgm	
+Wi-Fi Direct Network Discovery (In)	Wi-Fi Direct Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\dashost.exe	Any	Any	Any	Any	Any	Any	Any	S-1-5-92-3339056971-1291069075-3798698925-2882100687-0	Any	None	Any	
+Wi-Fi Direct Scan Service Use (In)	Wi-Fi Direct Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+Wi-Fi Direct Spooler Use (In)	Wi-Fi Direct Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\spoolsv.exe	Any	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+Windows Camera	Windows Camera	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.WindowsCamera_8wekyb3d8bbwe	
+Windows Clock	Windows Clock	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.WindowsAlarms_8wekyb3d8bbwe	
+Windows Collaboration Computer Name Registration Service (PNRP-In)	Windows Collaboration Computer Name Registration Service	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	3540	Any	Any	Any	Any	Any	None	Any	
+Windows Collaboration Computer Name Registration Service (SSDP-In)	Windows Collaboration Computer Name Registration Service	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	1900	Any	Any	Any	Any	Any	None	Any	
+Windows Defender Firewall Remote Management (RPC)	Windows Defender Firewall Remote Management	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Windows Defender Firewall Remote Management (RPC)	Windows Defender Firewall Remote Management	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Dynamic Ports	Any	Any	Any	Any	Any	None	Any	
+Windows Defender Firewall Remote Management (RPC-EPMAP)	Windows Defender Firewall Remote Management	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Windows Defender Firewall Remote Management (RPC-EPMAP)	Windows Defender Firewall Remote Management	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	RPC Endpoint Mapper	Any	Any	Any	Any	Any	None	Any	
+Windows Feature Experience Pack	Windows Feature Experience Pack	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	NT AUTHORITY\SYSTEM	None	MicrosoftWindows.Client.CBS_cw5n1h2txyewy	
+Windows Feature Experience Pack	Windows Feature Experience Pack	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	NT AUTHORITY\SYSTEM	None	MicrosoftWindows.Client.Photon_cw5n1h2txyewy	
+Windows Feature Experience Pack	Windows Feature Experience Pack	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	NT AUTHORITY\SYSTEM	None	MicrosoftWindows.Client.Core_cw5n1h2txyewy	
+Windows Management Instrumentation (ASync-In)	Windows Management Instrumentation (WMI)	Domain	No	Allow	No	%systemroot%\system32\wbem\unsecapp.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Windows Management Instrumentation (ASync-In)	Windows Management Instrumentation (WMI)	Private, Public	No	Allow	No	%systemroot%\system32\wbem\unsecapp.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Windows Management Instrumentation (DCOM-In)	Windows Management Instrumentation (WMI)	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	135	Any	Any	Any	Any	Any	None	Any	
+Windows Management Instrumentation (DCOM-In)	Windows Management Instrumentation (WMI)	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	135	Any	Any	Any	Any	Any	None	Any	
+Windows Management Instrumentation (WMI-In)	Windows Management Instrumentation (WMI)	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Windows Management Instrumentation (WMI-In)	Windows Management Instrumentation (WMI)	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Windows Media Player	Windows Media Player	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.ZuneMusic_8wekyb3d8bbwe	
+Windows Peer to Peer Collaboration Foundation (PNRP-In)	Windows Peer to Peer Collaboration Foundation	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	3540	Any	Any	Any	Any	Any	None	Any	
+Windows Peer to Peer Collaboration Foundation (SSDP-In)	Windows Peer to Peer Collaboration Foundation	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	1900	Any	Any	Any	Any	Any	None	Any	
+Windows Peer to Peer Collaboration Foundation (TCP-In)	Windows Peer to Peer Collaboration Foundation	All	No	Allow	No	%SystemRoot%\system32\p2phost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+Windows Peer to Peer Collaboration Foundation (WSD-In)	Windows Peer to Peer Collaboration Foundation	All	No	Allow	No	%SystemRoot%\system32\p2phost.exe	Any	Local subnet	UDP	3702	Any	Any	Any	Any	Any	None	Any	
+Windows Remote Management (HTTP-In)	Windows Remote Management	Domain, Private	No	Allow	No	System	Any	Any	TCP	5985	Any	Any	Any	Any	Any	None	Any	
+Windows Remote Management (HTTP-In)	Windows Remote Management	Public	No	Allow	No	System	Any	Local subnet	TCP	5985	Any	Any	Any	Any	Any	None	Any	
+Windows Remote Management - Compatibility Mode (HTTP-In)	Windows Remote Management (Compatibility)	Domain	No	Allow	No	System	Any	Any	TCP	80	Any	Any	Any	Any	Any	None	Any	
+Windows Remote Management - Compatibility Mode (HTTP-In)	Windows Remote Management (Compatibility)	Private, Public	No	Allow	No	System	Any	Local subnet	TCP	80	Any	Any	Any	Any	Any	None	Any	
+Windows Security	Windows Security	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-LAPTOP\Sharanya Dasgupta	None	Microsoft.SecHealthUI_8wekyb3d8bbwe	
+Wireless Display (TCP-In)	Wireless Display	All	Yes	Allow	No	%systemroot%\system32\WUDFHost.exe	Any	Any	TCP	Any	Any	Any	Any	NT AUTHORITY\USER MODE DRIVERS	Any	None	Any	
+Wireless Display Infrastructure Back Channel (TCP-In)	Wireless Display	All	Yes	Allow	No	%systemroot%\system32\CastSrv.exe	Any	Any	TCP	7250	Any	Any	Any	Any	Any	None	Any	
+Wireless Portable Devices (SSDP-In)	Wireless Portable Devices	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	1900	Any	Any	Any	Any	Any	None	Any	
+Wireless Portable Devices (UPnP-In)	Wireless Portable Devices	All	No	Allow	No	System	Any	Local subnet	TCP	2869	Any	Any	Any	Any	Any	None	Any	
+WFD ASP Coordination Protocol (UDP-In)	WLAN Service - WFD Application Services Platform Coordination Protocol (Uses UDP)	All	Yes	Allow	No	%systemroot%\system32\svchost.exe	Any	Local subnet	UDP	7235	7235	Any	Any	Any	Any	None	Any	
+WFD Driver-only (TCP-In)	WLAN Service - WFD Services Kernel Mode Driver Rules	All	Yes	Allow	No	System	Any	Any	TCP	Any	Any	Any	Any	Any	Any	None	Any	
+WFD Driver-only (UDP-In)	WLAN Service - WFD Services Kernel Mode Driver Rules	All	Yes	Allow	No	System	Any	Any	UDP	Any	Any	Any	Any	Any	Any	None	Any	
+Work or school account	Work or school account	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	NT AUTHORITY\SYSTEM	None	Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy	
+Your account	Your account	Domain, Private	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	Any	NT AUTHORITY\SYSTEM	None	Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy	
+Airhost service for Zoom Video Meetings	Zoom Video Conference	All	Yes	Allow	No	C:\Users\shara\AppData\Roaming\Zoom\bin\airhost.exe	Any	Any	UDP	5353, 7200-17210, 8889	Any	Any	Any	Any	Any	None	Any	
+Airhost service for Zoom Video Meetings	Zoom Video Conference	All	Yes	Allow	No	C:\Users\shara\AppData\Roaming\Zoom\bin\airhost.exe	Any	Any	TCP	5000, 7000, 7100, 50000, 7200-17210, 8888	Any	Any	Any	Any	Any	None	Any	
+Zoom Video Meeting	Zoom Video Conference	All	Yes	Allow	No	C:\Users\shara\AppData\Roaming\Zoom\bin\Zoom.exe	Any	Any	UDP	7200-17210	Any	Any	Any	Any	Any	None	Any	

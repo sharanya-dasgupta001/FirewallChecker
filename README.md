@@ -60,6 +60,7 @@ Bar2	Yes	Allow	200	10.3.141.1	200	TCP
 Analyze their differences with the following command:
 ```
 dotnet run --project FirewallEquivalenceCheckerCmd --firewall1 Examples/firewall1.txt --firewall2 Examples/firewall2.txt
+dotnet run --project FirewallEquivalenceCheckerCmd --firewall1 sharanya_1_out.txt --firewall2 sharanya_1.txt
 ```
 This should generate the following output:
 ```
