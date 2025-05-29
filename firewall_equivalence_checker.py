@@ -378,9 +378,9 @@ class FirewallEquivalenceChecker:
             print("-" * 94)
             for idx, ce in enumerate(counter_examples):
                 for rule in ce[0]:
-                    print(f"| {idx+1:^7} | {'1':^8} | {rule[-1]:^6} | {rule[0][:94]:<60} |")
+                    print(f"| {idx+1:^7} | {'1':^8} | {rule[-1]:^6} | {rule[0][:50]:<60} |")
                 for rule in ce[1]:
-                    print(f"| {idx+1:^7} | {'2':^8} | {rule[-1]:^6} | {rule[0][:94]:<60} |")
+                    print(f"| {idx+1:^7} | {'2':^8} | {rule[-1]:^6} | {rule[0][:50]:<60} |")
             print("-" * 94)
 
 
