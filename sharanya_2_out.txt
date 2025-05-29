@@ -1,0 +1,199 @@
+Name	Group	Profile	Enabled	Action	Override	Program	Local Address	Remote Address	Protocol	Local Port	Remote Port	Authorized Computers	Authorized Local Principals	Local User Owner	PolicyAppId	Application Package	
+acrobat		All	Yes	Block	No	%ProgramFiles% (x86)\Adobe\Acrobat 11.0\Acrobat\Acrobat.exe	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+adobe dc		All	Yes	Block	No	%ProgramFiles%\Adobe\Acrobat DC\Acrobat\Acrobat.exe	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+distiller		All	Yes	Block	No	%ProgramFiles% (x86)\Adobe\Acrobat 11.0\Acrobat\acrodist.exe	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+@FirewallAPI.dll,-80204	@FirewallAPI.dll,-80200	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	554, 8554-8558	Any	Any	Any	None	Any	
+AllJoyn Router (TCP-Out)	AllJoyn Router	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+AllJoyn Router (UDP-Out)	AllJoyn Router	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	Any	Any	Any	Any	None	Any	
+App Installer	App Installer	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.DesktopAppInstaller_8wekyb3d8bbwe	
+BranchCache Content Retrieval (HTTP-Out)	BranchCache - Content Retrieval (Uses HTTP)	All	No	Allow	No	SYSTEM	Any	Any	TCP	Any	80	Any	Any	Any	None	Any	
+BranchCache Hosted Cache Client (HTTP-Out)	BranchCache - Hosted Cache Client (Uses HTTPS)	All	No	Allow	No	SYSTEM	Any	Any	TCP	Any	443	Any	Any	Any	None	Any	
+BranchCache Hosted Cache Server(HTTP-Out)	BranchCache - Hosted Cache Server (Uses HTTPS)	All	No	Allow	No	SYSTEM	Any	Any	TCP	443	Any	Any	Any	Any	None	Any	
+BranchCache Peer Discovery (WSD-Out)	BranchCache - Peer Discovery (Uses WSD)	All	No	Allow	No	%systemroot%\system32\svchost.exe	Any	Local subnet	UDP	Any	3702	Any	Any	Any	None	Any	
+Captive Portal Flow	Captive Portal Flow	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy	
+Cast to Device functionality (qWave-TCP-Out)	Cast to Device functionality	Private, Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	PlayTo Renderers	TCP	Any	2177	Any	Any	Any	None	Any	
+Cast to Device functionality (qWave-UDP-Out)	Cast to Device functionality	Private, Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	PlayTo Renderers	UDP	Any	2177	Any	Any	Any	None	Any	
+Cast to Device streaming server (RTP-Streaming-Out)	Cast to Device functionality	Private	Yes	Allow	No	%SystemRoot%\system32\mdeserver.exe	Any	Local subnet	UDP	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (RTP-Streaming-Out)	Cast to Device functionality	Domain	Yes	Allow	No	%SystemRoot%\system32\mdeserver.exe	Any	Any	UDP	Any	Any	Any	Any	Any	None	Any	
+Cast to Device streaming server (RTP-Streaming-Out)	Cast to Device functionality	Public	Yes	Allow	No	%SystemRoot%\system32\mdeserver.exe	Any	PlayTo Renderers	UDP	Any	Any	Any	Any	Any	None	Any	
+ChatGPT	ChatGPT	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	OpenAI.ChatGPT-Desktop_2p2nqsd0c76g0	
+Cloud Identity (TCP-Out)	Cloud Identity	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	443	Any	Any	Any	None	Any	
+Connect to a Network Projector (TCP-Out)	Connect to a Network Projector	Private, Public	No	Allow	No	%SystemRoot%\system32\netproj.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Connect to a Network Projector (TCP-Out)	Connect to a Network Projector	Domain	No	Allow	No	%SystemRoot%\system32\netproj.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Connect to a Network Projector (WSD Events-Out)	Connect to a Network Projector	Private, Public	No	Allow	No	System	Any	Local subnet	TCP	Any	5357	Any	Any	Any	None	Any	
+Connect to a Network Projector (WSD Events-Out)	Connect to a Network Projector	Domain	No	Allow	No	System	Any	Any	TCP	Any	5357	Any	Any	Any	None	Any	
+Connect to a Network Projector (WSD EventsSecure-Out)	Connect to a Network Projector	Domain	No	Allow	No	System	Any	Any	TCP	Any	5358	Any	Any	Any	None	Any	
+Connect to a Network Projector (WSD EventsSecure-Out)	Connect to a Network Projector	Private, Public	No	Allow	No	System	Any	Local subnet	TCP	Any	5358	Any	Any	Any	None	Any	
+Connect to a Network Projector (WSD-Out)	Connect to a Network Projector	All	No	Allow	No	%SystemRoot%\system32\netproj.exe	Any	Local subnet	UDP	Any	3702	Any	Any	Any	None	Any	
+Connected Devices Platform - WiFi Direct Transport (TCP-Out)	Connected Devices Platform	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Connected Devices Platform (TCP-Out)	Connected Devices Platform	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Connected Devices Platform (UDP-Out)	Connected Devices Platform	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	Any	Any	Any	Any	None	Any	
+Core Networking - DNS (UDP-Out)	Core Networking	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	53	Any	Any	Any	None	Any	
+Core Networking - Dynamic Host Configuration Protocol (DHCP-Out)	Core Networking	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	68	67	Any	Any	Any	None	Any	
+Core Networking - Dynamic Host Configuration Protocol for IPv6 (DHCPV6-Out)	Core Networking	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	546	547	Any	Any	Any	None	Any	
+Core Networking - Group Policy (LSASS-Out)	Core Networking	Domain	Yes	Allow	No	%SystemRoot%\system32\lsass.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Group Policy (NP-Out)	Core Networking	Domain	Yes	Allow	No	System	Any	Any	TCP	Any	445	Any	Any	Any	None	Any	
+Core Networking - Group Policy (TCP-Out)	Core Networking	Domain	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Internet Group Management Protocol (IGMP-Out)	Core Networking	All	Yes	Allow	No	System	Any	Any	IGMP	Any	Any	Any	Any	Any	None	Any	
+Core Networking - IPHTTPS (TCP-Out)	Core Networking	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	IPHTTPS	Any	Any	Any	None	Any	
+Core Networking - IPv6 (IPv6-Out)	Core Networking	All	Yes	Allow	No	System	Any	Any	IPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Multicast Listener Done (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Multicast Listener Query (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Multicast Listener Report (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Multicast Listener Report v2 (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Neighbour Discovery Advertisement (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Any	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Neighbour Discovery Solicitation (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Any	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Packet Too Big (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Any	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Parameter Problem (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Any	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Router Advertisement (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	fe80::/64	Local subnet, ff02::1, fe80::/64	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Router Solicitation (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Local subnet, ff02::2, fe80::/64	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Teredo (UDP-Out)	Core Networking	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	Any	Any	Any	Any	None	Any	
+Core Networking - Time Exceeded (ICMPv6-Out)	Core Networking	All	Yes	Allow	No	Any	Any	Any	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking Diagnostics - ICMP Echo Request (ICMPv4-Out)	Core Networking Diagnostics	Private, Public	No	Allow	No	System	Any	Local subnet	ICMPv4	Any	Any	Any	Any	Any	None	Any	
+Core Networking Diagnostics - ICMP Echo Request (ICMPv4-Out)	Core Networking Diagnostics	Domain	No	Allow	No	System	Any	Any	ICMPv4	Any	Any	Any	Any	Any	None	Any	
+Core Networking Diagnostics - ICMP Echo Request (ICMPv6-Out)	Core Networking Diagnostics	Domain	No	Allow	No	System	Any	Any	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Core Networking Diagnostics - ICMP Echo Request (ICMPv6-Out)	Core Networking Diagnostics	Private, Public	No	Allow	No	System	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+Desktop App Web Viewer	Desktop App Web Viewer	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Win32WebViewHost_cw5n1h2txyewy	
+Connected User Experiences and Telemetry	DiagTrack	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	443	Any	Any	Any	None	Any	
+Distributed Transaction Co-ordinator (TCP-Out)	Distributed Transaction Co-ordinator	Domain	No	Allow	No	%SystemRoot%\system32\msdtc.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Distributed Transaction Co-ordinator (TCP-Out)	Distributed Transaction Co-ordinator	Private, Public	No	Allow	No	%SystemRoot%\system32\msdtc.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Email and accounts	Email and accounts	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.AccountsControl_cw5n1h2txyewy	
+File and Printer Sharing (Echo Request - ICMPv4-Out)	File and Printer Sharing	Domain	No	Allow	No	Any	Any	Any	ICMPv4	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Echo Request - ICMPv4-Out)	File and Printer Sharing	Private	Yes	Allow	No	Any	Any	Local subnet	ICMPv4	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Echo Request - ICMPv4-Out)	File and Printer Sharing	Public	Yes	Allow	No	Any	Any	Local subnet	ICMPv4	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Echo Request - ICMPv6-Out)	File and Printer Sharing	Public	Yes	Allow	No	Any	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Echo Request - ICMPv6-Out)	File and Printer Sharing	Private	Yes	Allow	No	Any	Any	Local subnet	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (Echo Request - ICMPv6-Out)	File and Printer Sharing	Domain	No	Allow	No	Any	Any	Any	ICMPv6	Any	Any	Any	Any	Any	None	Any	
+File and Printer Sharing (LLMNR-UDP-Out)	File and Printer Sharing	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	5355	Any	Any	Any	None	Any	
+File and Printer Sharing (LLMNR-UDP-Out)	File and Printer Sharing	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	5355	Any	Any	Any	None	Any	
+File and Printer Sharing (LLMNR-UDP-Out)	File and Printer Sharing	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	5355	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Datagram-Out)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	UDP	Any	138	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Datagram-Out)	File and Printer Sharing	Public	Yes	Allow	No	System	Any	Local subnet	UDP	Any	138	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Datagram-Out)	File and Printer Sharing	Private	Yes	Allow	No	System	Any	Local subnet	UDP	Any	138	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Name-Out)	File and Printer Sharing	Public	Yes	Allow	No	System	Any	Local subnet	UDP	Any	137	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Name-Out)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	UDP	Any	137	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Name-Out)	File and Printer Sharing	Private	Yes	Allow	No	System	Any	Local subnet	UDP	Any	137	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Session-Out)	File and Printer Sharing	Private	Yes	Allow	No	System	Any	Local subnet	TCP	Any	139	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Session-Out)	File and Printer Sharing	Public	Yes	Allow	No	System	Any	Local subnet	TCP	Any	139	Any	Any	Any	None	Any	
+File and Printer Sharing (NB-Session-Out)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	TCP	Any	139	Any	Any	Any	None	Any	
+File and Printer Sharing (SMB-Out)	File and Printer Sharing	Domain	No	Allow	No	System	Any	Any	TCP	Any	445	Any	Any	Any	None	Any	
+File and Printer Sharing (SMB-Out)	File and Printer Sharing	Public	Yes	Allow	No	System	Any	Local subnet	TCP	Any	445	Any	Any	Any	None	Any	
+File and Printer Sharing (SMB-Out)	File and Printer Sharing	Private	Yes	Allow	No	System	Any	Local subnet	TCP	Any	445	Any	Any	Any	None	Any	
+Game Bar	Game Bar	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.XboxGamingOverlay_8wekyb3d8bbwe	
+Get Help	Get Help	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.GetHelp_8wekyb3d8bbwe	
+HomeGroup Out	HomeGroup	Private	No	Allow	No	%systemroot%\system32\svchost.exe	Any	Local subnet	TCP	Any	3587	Any	Any	Any	None	Any	
+HomeGroup Out (PNRP)	HomeGroup	Private	No	Allow	No	%systemroot%\system32\svchost.exe	Any	Local subnet	UDP	Any	3540	Any	Any	Any	None	Any	
+Hotspot Shield VPN - Wifi Proxy	Hotspot Shield VPN - Wifi Proxy	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	6F71D7A7.HotspotShieldFreeVPN_nsbqstbb9qxb6	
+iSCSI Service (TCP-Out)	iSCSI Service	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+iSCSI Service (TCP-Out)	iSCSI Service	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+mDNS (UDP-Out)	mDNS	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	5353	Any	Any	Any	None	Any	
+mDNS (UDP-Out)	mDNS	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	5353	Any	Any	Any	None	Any	
+mDNS (UDP-Out)	mDNS	Domain	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	5353	Any	Any	Any	None	Any	
+Media Center Extenders - Device Provisioning (TCP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\ehome\mcx2prov.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - Device Validation (TCP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\ehome\mcrmgr.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - Media Streaming (TCP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - Media Streaming (UDP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	1900	Any	Any	Any	Any	None	Any	
+Media Center Extenders - qWave (TCP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	2177	Any	Any	Any	None	Any	
+Media Center Extenders - qWave (UDP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	2177	Any	Any	Any	None	Any	
+Media Center Extenders - RTSP (TCP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\ehome\ehshell.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - Service (TCP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - SSDP (UDP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	1900	Any	Any	Any	None	Any	
+Media Center Extenders - UPnP (TCP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Media Center Extenders - WMDRM-ND/RTP/RTCP (UDP-Out)	Media Center Extenders	All	No	Allow	No	%SystemRoot%\ehome\ehshell.exe	Any	Local subnet	UDP	Any	Any	Any	Any	Any	None	Any	
+Microsoft Clipchamp	Microsoft Clipchamp	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Clipchamp.Clipchamp_yxz26nhyzhsrt	
+Microsoft content	Microsoft content	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy	
+Microsoft family features	Microsoft family features	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.ParentalControls_cw5n1h2txyewy	
+Microsoft Store	Microsoft Store	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	microsoft.windowsstore_8wekyb3d8bbwe	
+MSN Weather	MSN Weather	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.BingWeather_8wekyb3d8bbwe	
+Narrator	Narrator	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.NarratorQuickStart_8wekyb3d8bbwe	
+NcsiUwpApp	NcsiUwpApp	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	NcsiUwpApp_8wekyb3d8bbwe	
+Network Discovery (LLMNR-UDP-Out)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	5355	Any	Any	Any	None	Any	
+Network Discovery (LLMNR-UDP-Out)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	5355	Any	Any	Any	None	Any	
+Network Discovery (LLMNR-UDP-Out)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	5355	Any	Any	Any	None	Any	
+Network Discovery (NB-Datagram-Out)	Network Discovery	Domain	No	Allow	No	System	Any	Any	UDP	Any	138	Any	Any	Any	None	Any	
+Network Discovery (NB-Datagram-Out)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	UDP	Any	138	Any	Any	Any	None	Any	
+Network Discovery (NB-Datagram-Out)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	UDP	Any	138	Any	Any	Any	None	Any	
+Network Discovery (NB-Name-Out)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	UDP	Any	137	Any	Any	Any	None	Any	
+Network Discovery (NB-Name-Out)	Network Discovery	Domain	No	Allow	No	System	Any	Any	UDP	Any	137	Any	Any	Any	None	Any	
+Network Discovery (NB-Name-Out)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	UDP	Any	137	Any	Any	Any	None	Any	
+Network Discovery (Pub WSD-Out)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	3702	Any	Any	Any	None	Any	
+Network Discovery (Pub WSD-Out)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	3702	Any	Any	Any	None	Any	
+Network Discovery (Pub WSD-Out)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	3702	Any	Any	Any	None	Any	
+Network Discovery (SSDP-Out)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	1900	Any	Any	Any	None	Any	
+Network Discovery (SSDP-Out)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	1900	Any	Any	Any	None	Any	
+Network Discovery (SSDP-Out)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	1900	Any	Any	Any	None	Any	
+Network Discovery (UPnPHost-Out)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (UPnPHost-Out)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (UPnPHost-Out)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (UPnP-Out)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (UPnP-Out)	Network Discovery	Domain	No	Allow	No	System	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (UPnP-Out)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Network Discovery (WSD Events-Out)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	TCP	Any	5357	Any	Any	Any	None	Any	
+Network Discovery (WSD Events-Out)	Network Discovery	Domain	No	Allow	No	System	Any	Any	TCP	Any	5357	Any	Any	Any	None	Any	
+Network Discovery (WSD Events-Out)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	TCP	Any	5357	Any	Any	Any	None	Any	
+Network Discovery (WSD EventsSecure-Out)	Network Discovery	Domain	No	Allow	No	System	Any	Any	TCP	Any	5358	Any	Any	Any	None	Any	
+Network Discovery (WSD EventsSecure-Out)	Network Discovery	Private	Yes	Allow	No	System	Any	Local subnet	TCP	Any	5358	Any	Any	Any	None	Any	
+Network Discovery (WSD EventsSecure-Out)	Network Discovery	Public	Yes	Allow	No	System	Any	Local subnet	TCP	Any	5358	Any	Any	Any	None	Any	
+Network Discovery (WSD-Out)	Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	3702	Any	Any	Any	None	Any	
+Network Discovery (WSD-Out)	Network Discovery	Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	3702	Any	Any	Any	None	Any	
+Network Discovery (WSD-Out)	Network Discovery	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	3702	Any	Any	Any	None	Any	
+Paint 3D	Paint 3D	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.MSPaint_8wekyb3d8bbwe	
+PDF Reader - View, Edit, Annotate	PDF Reader - View, Edit, Annotate	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	5e8fc25e.xododocs_6aag0xp2s3vzw	
+Proximity sharing over TCP (TCP sharing-Out)	Proximity Sharing	All	Yes	Allow	No	%SystemRoot%\system32\proximityuxhost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Recommended Troubleshooting Client (HTTP/HTTPS Out)	Recommended Troubleshooting	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	80, 443	Any	Any	Any	None	Any	
+Remote Assistance (PNRP-Out)	Remote Assistance	Public	No	Allow	No	%systemroot%\system32\svchost.exe	Any	Any	UDP	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (PNRP-Out)	Remote Assistance	Domain, Private	Yes	Allow	No	%systemroot%\system32\svchost.exe	Any	Any	UDP	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (RA Server TCP-Out)	Remote Assistance	Domain	Yes	Allow	No	%SystemRoot%\system32\raserver.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (SSDP TCP-Out)	Remote Assistance	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (SSDP UDP-Out)	Remote Assistance	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	1900	Any	Any	Any	None	Any	
+Remote Assistance (TCP-Out)	Remote Assistance	Public	No	Allow	No	%SystemRoot%\system32\msra.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Remote Assistance (TCP-Out)	Remote Assistance	Domain, Private	Yes	Allow	No	%SystemRoot%\system32\msra.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Routing and Remote Access (GRE-Out)	Routing and Remote Access	All	No	Allow	No	System	Any	Any	GRE	Any	Any	Any	Any	Any	None	Any	
+Routing and Remote Access (L2TP-Out)	Routing and Remote Access	All	No	Allow	No	System	Any	Any	UDP	Any	1701	Any	Any	Any	None	Any	
+Routing and Remote Access (PPTP-Out)	Routing and Remote Access	All	No	Allow	No	System	Any	Any	TCP	Any	1723	Any	Any	Any	None	Any	
+Start	Start	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy	
+Store Experience Host	Store Experience Host	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	microsoft.storepurchaseapp_8wekyb3d8bbwe	
+Take a Test	Take a Test	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy	
+TPM Virtual Smart Card Management (TCP-Out)	TPM Virtual Smart Card Management	Private, Public	No	Allow	No	%SystemRoot%\system32\RmtTpmVscMgrSvr.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+TPM Virtual Smart Card Management (TCP-Out)	TPM Virtual Smart Card Management	Domain	No	Allow	No	%SystemRoot%\system32\RmtTpmVscMgrSvr.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+WhatsApp	WhatsApp	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	5319275A.WhatsAppDesktop_cv1g1gvanyjgm	
+Wi-Fi Direct Network Discovery (Out)	Wi-Fi Direct Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\dashost.exe	Any	Any	Any	Any	Any	Any	S-1-5-92-3339056971-1291069075-3798698925-2882100687-0	Any	None	Any	
+Wi-Fi Direct Scan Service Use (Out)	Wi-Fi Direct Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+Wi-Fi Direct Spooler Use (Out)	Wi-Fi Direct Network Discovery	Public	Yes	Allow	No	%SystemRoot%\system32\spoolsv.exe	Any	Any	Any	Any	Any	Any	Any	Any	None	Any	
+Windows Calculator	Windows Calculator	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.WindowsCalculator_8wekyb3d8bbwe	
+Windows Collaboration Computer Name Registration Service (PNRP-Out)	Windows Collaboration Computer Name Registration Service	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	3540	Any	Any	Any	None	Any	
+Windows Collaboration Computer Name Registration Service (SSDP-Out)	Windows Collaboration Computer Name Registration Service	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	1900	Any	Any	Any	None	Any	
+Windows Default Lock Screen	Windows Default Lock Screen	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	microsoft.lockapp_cw5n1h2txyewy	
+Windows Defender SmartScreen	Windows Defender SmartScreen	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy	
+Windows Device Management Certificate Installer (TCP out)	Windows Device Management	All	Yes	Allow	No	%SystemRoot%\system32\dmcertinst.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Windows Device Management Device Enroller (TCP out)	Windows Device Management	All	Yes	Allow	No	%SystemRoot%\system32\deviceenroller.exe	Any	Any	TCP	Any	80, 443	Any	Any	Any	None	Any	
+Windows Device Management Enrolment Service (TCP out)	Windows Device Management	All	Yes	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Windows Device Management Sync Client (TCP out)	Windows Device Management	All	Yes	Allow	No	%SystemRoot%\system32\omadmclient.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Windows Feature Experience Pack	Windows Feature Experience Pack	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	MicrosoftWindows.Client.CBS_cw5n1h2txyewy	
+Windows Management Instrumentation (WMI-Out)	Windows Management Instrumentation (WMI)	Private, Public	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Windows Management Instrumentation (WMI-Out)	Windows Management Instrumentation (WMI)	Domain	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Windows Media Player	Windows Media Player	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.ZuneMusic_8wekyb3d8bbwe	
+Windows Peer to Peer Collaboration Foundation (PNRP-Out)	Windows Peer to Peer Collaboration Foundation	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Any	UDP	Any	3540	Any	Any	Any	None	Any	
+Windows Peer to Peer Collaboration Foundation (SSDP-Out)	Windows Peer to Peer Collaboration Foundation	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	1900	Any	Any	Any	None	Any	
+Windows Peer to Peer Collaboration Foundation (TCP-Out)	Windows Peer to Peer Collaboration Foundation	All	No	Allow	No	%SystemRoot%\system32\p2phost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Windows Peer to Peer Collaboration Foundation (WSD-Out)	Windows Peer to Peer Collaboration Foundation	All	No	Allow	No	%SystemRoot%\system32\p2phost.exe	Any	Local subnet	UDP	Any	3702	Any	Any	Any	None	Any	
+Windows Search	Windows Search	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	microsoft.windows.search_cw5n1h2txyewy	
+Windows Security	Windows Security	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.SecHealthUI_cw5n1h2txyewy	
+Windows Shell Experience	Windows Shell Experience	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy	
+Windows Shell Experience	Windows Shell Experience	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy	
+Windows Terminal	Windows Terminal	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.WindowsTerminal_8wekyb3d8bbwe	
+windows_ie_ac_001	windows_ie_ac_001	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	windows_ie_ac_001	
+Wireless Display (TCP-Out)	Wireless Display	All	Yes	Allow	No	%systemroot%\system32\WUDFHost.exe	Any	Any	TCP	Any	Any	Any	NT AUTHORITY\USER MODE DRIVERS	Any	None	Any	
+Wireless Display (UDP-Out)	Wireless Display	All	Yes	Allow	No	%systemroot%\system32\WUDFHost.exe	Any	Any	UDP	Any	Any	Any	NT AUTHORITY\USER MODE DRIVERS	Any	None	Any	
+Wireless Portable Devices (SSDP-Out)	Wireless Portable Devices	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	UDP	Any	1900	Any	Any	Any	None	Any	
+Wireless Portable Devices (TCP-Out)	Wireless Portable Devices	Domain	No	Allow	No	%SystemRoot%\system32\wudfhost.exe	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+Wireless Portable Devices (TCP-Out)	Wireless Portable Devices	Private, Public	No	Allow	No	%SystemRoot%\system32\wudfhost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Wireless Portable Devices (UPnPHost-Out)	Wireless Portable Devices	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+Wireless Portable Devices (UPnP-Out)	Wireless Portable Devices	All	No	Allow	No	%SystemRoot%\system32\svchost.exe	Any	Local subnet	TCP	Any	Any	Any	Any	Any	None	Any	
+WFD ASP Coordination Protocol (UDP-Out)	WLAN Service – WFD Application Services Platform Coordination Protocol (Uses UDP)	All	Yes	Allow	No	%systemroot%\system32\svchost.exe	Any	Local subnet	UDP	7235	7235	Any	Any	Any	None	Any	
+WFD Driver-only (TCP-Out)	WLAN Service – WFD Services Kernel Mode Driver Rules	All	Yes	Allow	No	System	Any	Any	TCP	Any	Any	Any	Any	Any	None	Any	
+WFD Driver-only (UDP-Out)	WLAN Service – WFD Services Kernel Mode Driver Rules	All	Yes	Allow	No	System	Any	Any	UDP	Any	Any	Any	Any	Any	None	Any	
+Workplace or school account	Workplace or school account	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy	
+Xbox Game UI	Xbox Game UI	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.XboxGameCallableUI_cw5n1h2txyewy	
+Xbox Identity Provider	Xbox Identity Provider	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.XboxIdentityProvider_8wekyb3d8bbwe	
+Your account	Your account	All	Yes	Allow	No	Any	Any	Any	Any	Any	Any	Any	Any	SHARANYA-PC\Sharanya Dasgupta	None	Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy	
