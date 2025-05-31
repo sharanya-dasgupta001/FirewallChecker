@@ -4,31 +4,26 @@ import csv
 from z3 import *
 from typing import List, Dict, Generator, Optional
 
-# Represents an IP address range from 'low' to 'high'
 class AddressRange:
     def __init__(self, low: str, high: str):
         self.low = ipaddress.IPv4Address(low)
         self.high = ipaddress.IPv4Address(high)
 
-# Represents a set of address ranges or a wildcard for all addresses
 class AddressSet:
     def __init__(self, contains_all: bool = False, ranges: Optional[List[AddressRange]] = None):
         self.contains_all = contains_all
         self.ranges = ranges or []
 
-# Represents a port range from 'low' to 'high'
 class PortRange:
     def __init__(self, low: int, high: int):
         self.low = low
         self.high = high
 
-# Represents a set of port ranges or a wildcard for all ports
 class PortSet:
     def __init__(self, contains_all: bool = False, ranges: Optional[List[PortRange]] = None):
         self.contains_all = contains_all
         self.ranges = ranges or []
 
-# Represents a network protocol (e.g., TCP, UDP, ICMP)
 class NetworkProtocol:
     def __init__(self, any_protocol: bool = False, protocol_number: int = 0):
         self.any = any_protocol
@@ -69,7 +64,6 @@ class WindowsFirewallRule:
         self.allow = allow
 
     def __str__(self):
-        """Returns a human-readable string representation of the rule."""
         return (
             f"Rule: {self.name}\n"
             f"  Enabled: {self.enabled}, Action: {'Allow' if self.allow else 'Block'}\n"
@@ -79,7 +73,7 @@ class WindowsFirewallRule:
             f"  Remote Addresses: {'Any' if self.remote_addresses.contains_all else [(str(r.low), str(r.high)) for r in self.remote_addresses.ranges]}"
         )
 
-# Parses firewall rules from a CSV or TSV file
+# Parses firewall rules from a file
 class WindowsFirewallRuleParser:
     REQUIRED_HEADERS = [
         "Name", "Enabled", "Action", "Local Port",
@@ -90,8 +84,6 @@ class WindowsFirewallRuleParser:
     def parse(text: str, separator: str) -> Generator[WindowsFirewallRule, None, None]:
         """
         Parses text containing firewall rules separated by the given delimiter (e.g., '\t').
-        Yields:
-            Parsed WindowsFirewallRule instances.
         """
         reader = csv.reader(text.strip().splitlines(), delimiter=separator)
         header_line = next(reader)
@@ -114,7 +106,7 @@ class WindowsFirewallRuleParser:
 
     @staticmethod
     def parse_record(header_index: Dict[str, int], record: List[str]) -> WindowsFirewallRule:
-        """Converts a row from the CSV/TSV into a WindowsFirewallRule object."""
+        """Converts a row from the file into a WindowsFirewallRule object."""
         def get(field: str) -> str:
             return record[header_index[field]].strip()
 
@@ -130,7 +122,6 @@ class WindowsFirewallRuleParser:
 
     @staticmethod
     def parse_address_set(text: str) -> AddressSet:
-        """Parses a string representing an address set into an AddressSet object"""
         if text == "Any":
             return AddressSet(contains_all=True)
 
@@ -146,7 +137,7 @@ class WindowsFirewallRuleParser:
 
     @staticmethod
     def parse_port_set(text: str) -> PortSet:
-        """Parses a string into a PortSet, raises for unsupported macros."""
+        """raises for unsupported macros."""
         if not text:
             raise ValueError("Port is empty")
 
@@ -328,6 +319,11 @@ class FirewallEquivalenceChecker:
         f2_allows = self.allows(self.rules2, packet)
 
         s.add(f1_allows != f2_allows)
+        s.add(packet['local_port'] >= 0, packet['local_port'] <= 65535)
+        s.add(packet['remote_port'] >= 0, packet['remote_port'] <= 65535)
+        s.add(packet['protocol'] >= 0, packet['protocol'] <= 255)
+        s.add(packet['remote_ip'] >= 0, packet['remote_ip'] <= 2**32 - 1)
+
 
         found = 0
         print("-" * 94)
@@ -372,7 +368,7 @@ class FirewallEquivalenceChecker:
             print("✅ Firewalls are equivalent.")
 
         if len(counter_examples) > 0:
-            print("\n\nFirewall rules matching inconsistently-handled packets:")
+            print("\n\nFirewall rules matching counter example packets:")
             print("-" * 94)
             print(f"| {'Packet':^7} | {'Firewall':^8} | {'Action':^6} | {'Rule Name':<60} |")
             print("-" * 94)
